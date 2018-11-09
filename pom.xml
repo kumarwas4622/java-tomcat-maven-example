@@ -3,7 +3,7 @@
   <version>2.0.0</version>
   <groupId>com.example</groupId>
   <artifactId>java-tomcat-maven-example</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <name>hello Maven Webapp</name>
   <dependencies>
     <dependency>
