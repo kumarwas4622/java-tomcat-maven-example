@@ -1,4 +1,9 @@
 node{
+
+stage('Tool Initialation'){
+def mvnHome = tool 'M3'
+  sh "${mvnHome}/bin/mvn -B verify"
+}
  stage('clone'){
  git url: 'https://github.com/kumarwas4622/java-tomcat-maven-example.git'
  }
