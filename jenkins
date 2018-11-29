@@ -8,6 +8,6 @@ def mvnHome = tool 'M3'
  git url: 'https://github.com/kumarwas4622/java-tomcat-maven-example.git'
  }
  stage('Build'){
- sh "${mvnHome}/bin/mvn clean install"
+ sh "mvn clean install"
  }
 }
